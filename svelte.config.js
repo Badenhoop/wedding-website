@@ -20,7 +20,6 @@ const config = {
 			// change below to your repo name
 			base: dev ? '' : '/wedding-website',
 		},
-		appDir: 'internal',
 	}
 };
 
