@@ -8,6 +8,10 @@ module.exports = {
       serif: ['Lora', 'serif'],
       script: ['WindSong', 'cursive'],
     },
+    colors: {
+      'blue': '#297C72',
+      'white': '#FFF0F0',
+    }
   },
   plugins: [],
 }
