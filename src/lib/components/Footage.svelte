@@ -1,4 +1,8 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
+  import gsap from 'gsap'
+  import ScrollTrigger from 'gsap/ScrollTrigger'
+  gsap.registerPlugin(ScrollTrigger)
 
   let offset: number = 0
   let lastTime: number | null = null
@@ -70,13 +74,26 @@
     }, 10)
   }
 
-  animateSlideshowLeft('slideshow-left', 0.15)
-  animateSlideshowRight('slideshow-right', 0.15)
+  animateSlideshowLeft('slideshow-left', 0.1)
+  animateSlideshowRight('slideshow-right', 0.1)
+
+  onMount(() => {
+    gsap.from('.fadeIn', {
+      scrollTrigger: {
+        trigger: '.fadeIn',
+        start: 'top bottom',
+      },
+      opacity: 0,
+      visibility: 'invisible',
+      y: '5rem',
+      duration: 1,
+    });
+  })
 
 </script>
 
 <section class="bg-white overflow-hidden">
-  <div class="px-8 py-24 lg:py-48 flex flex-col items-center">
+  <div class="px-8 py-24 lg:py-48 flex flex-col items-center fadeIn">
     <h1 class="font-script text-7xl lg:text-9xl text-black text-center">Wir heiraten.</h1>
     <h2 class="mt-4 max-w-[32rem] lg:max-w-[48rem] font-serif text-2xl lg:text-4xl text-black opacity-30 text-center">UND IHR SEID HERZLICH ZU UNSERER HOCHZEIT EINGELADEN.</h2>
   </div>
@@ -101,6 +118,5 @@
     <div class="mr-8 bg-slideshow12 bg-cover bg-center rounded-3xl min-w-[40vw] h-[16rem] lg:h-[32rem]" />
   </div>
 
-  <div class="h-96"></div>
-
+  <div class="h-8"></div>
 </section>

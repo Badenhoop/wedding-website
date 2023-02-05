@@ -42,15 +42,15 @@
   <div class="w-full h-full absolute bg-black opacity-30"></div>
   <div class="w-full h-full absolute flex flex-col justify-between items-center">
     <ul class="p-4 flex flex-row justify-center flex-wrap">
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">ABLAUF</li>
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">{location}</li>
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">TRAUZEUGEN</li>
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">HINWEISE</li>
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">UNTERKÜNFTE</li>
-      <li class="font-sans font-light text-white text-md lg:text-lg tracking-widest px-4 hover:cursor-pointer">RÜCKMELDUNG</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">ABLAUF</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">{location}</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">TRAUZEUGEN</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">HINWEISE</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">UNTERKÜNFTE</li>
+      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest px-2 lg:px-4 hover:cursor-pointer">RÜCKMELDUNG</li>
     </ul>
     <div class="p-4 flex flex-col items-center">
-      <h3 class="font-sans font-extralight text-white text-3xl lg:text-5xl text-center tracking-widest">ISABELL UND TOBIAS</h3>
+      <h3 class="font-sans font-extralight text-white text-2xl lg:text-5xl text-center tracking-widest">ISABELL UND TOBIAS</h3>
       <h1 class="m-8 lg:m-12 font-script text-white text-7xl lg:text-9xl text-center">{saveTheDate}</h1>
       <h2 class="font-serif font-bold text-white text-4xl lg:text-6xl text-center border-solid border-white border-2 p-6 lg:p-8">{dateHeadline}</h2>
     </div>
