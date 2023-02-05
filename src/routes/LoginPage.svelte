@@ -12,12 +12,12 @@
 		} else if (password === '789') {
 			activePage.set('party')
 		} else {
-			error = 'Falsches Passwort.'
+			error = 'Falsches Passwort!'
 		}
 	}
 </script>
 
-<form on:submit|preventDefault={submit} class="bg-blue w-screen h-screen">
+<form on:submit|preventDefault={submit} class="bg-blue w-screen h-screen p-4">
 	<div class="lg:hidden h-full flex flex-col justify-center items-center">
 		<div class="flex flex-col items-start">
 			<h1 class="font-script text-8xl text-white">Login</h1>
@@ -30,7 +30,7 @@
 						 bind:value={password}  />
 			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-1 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
 			{#if error}
-				<p>{error}</p>
+				<p class="mt-4 font-serif text-md text-white">{error}</p>
 			{/if}
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 						 bind:value={password}  />
 			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-1 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
 			{#if error}
-				<p>{error}</p>
+				<p class="mt-4 font-serif text-md text-white">{error}</p>
 			{/if}
 		</div>
 	</div>
