@@ -34,7 +34,7 @@
 
 </script>
 
-<div class="w-screen h-screen relative">
+<section class="w-screen h-screen relative">
   <video class="w-full h-full absolute object-cover" autoplay muted loop>
     <source src={proposalVideo} type="video/mp4">
     <track kind="captions">
@@ -56,4 +56,4 @@
     </div>
     <h4 class="p-4 font-sans font-light text-white md:text-md lg:text-lg text-center">{countdownText}</h4>
   </div>
-</div>
+</section>
