@@ -28,7 +28,7 @@
 						 placeholder="*************" 
 						 type="password" 
 						 bind:value={password}  />
-			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-1 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
+			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-2 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
 			{#if error}
 				<p class="mt-4 font-serif text-md text-white">{error}</p>
 			{/if}
@@ -46,7 +46,7 @@
 						 placeholder="*************" 
 						 type="password" 
 						 bind:value={password}  />
-			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-1 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
+			<button class="mt-4 bg-white font-serif text-lg text-blue w-fit px-4 py-2 rounded-lg placeholder:" on:click={submit}>Los geht's</button>
 			{#if error}
 				<p class="mt-4 font-serif text-md text-white">{error}</p>
 			{/if}

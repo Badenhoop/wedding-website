@@ -38,7 +38,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"gsap": "^3.11.4",
-		"scrollmagic": "^2.0.8"
+		"gsap": "^3.11.4"
 	}
 }
