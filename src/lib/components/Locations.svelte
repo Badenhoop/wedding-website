@@ -28,13 +28,13 @@
     })
 
     if (showMarriage) {
-      tl.from('.location-1', { duration: 1, x: 50, opacity: 0 })
+      tl.from('.location-1', { duration: 0.5, x: 50, opacity: 0 })
     }
     if (showChurch) {
-      tl.from('.location-2', { duration: 1, x: 100, opacity: 0 }, '-=0.5')
+      tl.from('.location-2', { duration: 0.5, x: 100, opacity: 0 }, '-=0.25')
     }
     if (showVilla) {
-      tl.from('.location-3', { duration: 1, x: 150, opacity: 0 }, '-=0.5')
+      tl.from('.location-3', { duration: 0.5, x: 150, opacity: 0 }, '-=0.25')
     }
   })
 </script>
@@ -51,7 +51,7 @@
       <div class="w-4 lg:w-8"></div>
       <div class="flex flex-col items-start">
         <h2 class="font-serif text-xl lg:text-4xl text-left text-white">STANDESAMT POTSDAM</h2>
-        <h3 class="font-serif text-md lg:text-xl text-left text-white">Friedrich-Ebert-Straße 79/81 - 14469 Potsdam</h3>
+        <h3 class="font-serif text-md lg:text-xl text-left text-white opacity-90">Friedrich-Ebert-Straße 79/81 - 14469 Potsdam</h3>
       </div>
     </button>
   {/if}
@@ -65,7 +65,7 @@
       <div class="w-4 lg:w-8"></div>
       <div class="flex flex-col items-start">
         <h2 class="font-serif text-xl lg:text-4xl text-left text-white">KIRCHE RANGSDORF</h2>
-        <h3 class="font-serif text-md lg:text-xl text-left text-white">Kirchweg 1 - 15834 Rangsdorf</h3>
+        <h3 class="font-serif text-md lg:text-xl text-left text-white opacity-90">Kirchweg 1 - 15834 Rangsdorf</h3>
       </div>
     </button>
   {/if}
@@ -79,7 +79,7 @@
       <div class="w-4 lg:w-8"></div>
       <div class="flex flex-col items-start">
         <h2 class="font-serif text-xl lg:text-4xl text-left text-white">VILLA ZESCH AM SEE</h2>
-        <h3 class="font-serif text-md lg:text-xl text-left text-white">Zum Campingplatz 8 - 15806 Zossen</h3>
+        <h3 class="font-serif text-md lg:text-xl text-left text-white opacity-90">Zum Campingplatz 8 - 15806 Zossen</h3>
       </div>
     </button>
   {/if}

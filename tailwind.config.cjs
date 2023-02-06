@@ -26,6 +26,8 @@ module.exports = {
       'slideshow10': "url('/images/slideshow/10.jpg')",
       'slideshow11': "url('/images/slideshow/11.jpg')",
       'slideshow12': "url('/images/slideshow/12.jpg')",
+      'benny': "url('/images/benny.jpg')",
+      'tony': "url('/images/tony.jpg')"
     },
   },
   plugins: [],
