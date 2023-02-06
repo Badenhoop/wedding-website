@@ -27,11 +27,11 @@
       
       tl.from(circleMain, { scale: 0, duration: 1 })
         .from(line1, { height: 0, duration: 0.5 })
-        .from(circle1, { scale: 0, duration: 0.5 })
+        .from(circle1, { scale: 0, duration: 0.25 })
         .from(line2, { height: 0, duration: 0.5 })
-        .from(circle2, { scale: 0, duration: 0.5 })
+        .from(circle2, { scale: 0, duration: 0.25 })
         .from(line3, { height: 0, duration: 0.5 })
-        .from(circle3, { scale: 0, duration: 0.5 })
+        .from(circle3, { scale: 0, duration: 0.25 })
     });
   })
 </script>
