@@ -18,7 +18,11 @@
     startDate={new Date(2023, 6, 1)} />
   <Footage />
   <ProgramParty />
-  <Locations />
+  <Locations
+    plural={false}
+    showMarriage={false}
+    showChurch={false}
+    showVilla={true} />
   <BestMen />
   <Notes />
   <Accommodations />

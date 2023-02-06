@@ -21,7 +21,11 @@
   <Footage />
   <ProgramDayOne />
   <ProgramDayTwo />
-  <Locations />
+  <Locations
+    plural={true}
+    showMarriage={true}
+    showChurch={true}
+    showVilla={true} />
   <BestMen />
   <Notes />
   <Accommodations />
