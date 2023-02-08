@@ -3,10 +3,7 @@
   import beer from '$lib/images/icons/blue/beer.svg'
   import disco from '$lib/images/icons/blue/disco.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
+  import { gsap } from "gsap/dist/gsap"
 
   onMount(() => {
     gsap.utils.toArray('.program-party').forEach((section: any) => {
@@ -21,7 +18,7 @@
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: circleMain,
-          start: 'top center',
+          start: 'top bottom',
         },
       })
       

@@ -4,7 +4,7 @@
 
 
 <section class="contact bg-white px-4 lg:px-8 py-24 lg:py-48 flex flex-col items-center">
-  <h1 class="font-script text-6xl lg:text-8xl text-center">Rückmeldung</h1>
+  <h1 class="font-script text-5xl lg:text-8xl text-center">Rückmeldung</h1>
   <div class="h-8 lg:h-16"></div>
   <form class="flex flex-col items-start" action="https://formspree.io/f/xpzeppyq" method="POST">
     <label class="font-serif font-semibold text-left text-xl lg:text-2xl text-black" for="guest-names">NAMEN DER GÄSTE</label>
@@ -98,7 +98,7 @@
 <style>
   input[type="checkbox"],
   input[type="radio"] {
-    @apply absolute opacity-0 cursor-pointer h-0 w-0;
+    @apply opacity-0 cursor-pointer h-0 w-0;
   }
 
   .checkbox, .radiobox {

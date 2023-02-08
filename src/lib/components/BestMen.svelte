@@ -4,12 +4,12 @@
 </script>
 
 <section class="lg:hidden bg-blue px-4 py-24 flex flex-col items-center">
-  <h1 class="font-script text-7xl lg:text-9xl text-white text-center">Unsere<br>Trauzeugen</h1>
+  <h1 class="font-script text-5xl lg:text-9xl text-white text-center">Unsere<br>Trauzeugen</h1>
   <div class="h-16"></div>
   <div class="bg-tony bg-cover bg-top rounded-full w-80 h-80"></div>
   <div class="h-12"></div>
   <h2 class="font-serif text-4xl text-white text-center">TONY BÖCKER</h2>
-  <h3 class="font-serif font-bold text-xl text-white text-center opacity-90">- Trauzeuge von Tobias -</h3>
+  <h3 class="font-serif font-bold text-xl text-white text-center opacity-90">Trauzeuge von Tobias</h3>
   <div class="h-8"></div>
   <p class="max-w-[40rem] font-serif text-lg text-white text-left opacity-90">{@html tonyText}</p>
 
@@ -18,7 +18,7 @@
   <div class="bg-benny bg-cover bg-top rounded-full w-80 h-80"></div>
   <div class="h-12"></div>
   <h2 class="font-serif text-4xl text-white text-center">BENJAMIN ANSELM</h2>
-  <h3 class="font-serif font-bold text-xl text-white text-center opacity-90">- Trauzeuge von Isabell -</h3>
+  <h3 class="font-serif font-bold text-xl text-white text-center opacity-90">Trauzeuge von Isabell</h3>
   <div class="h-8"></div>
   <p class="max-w-[40rem] font-serif text-lg text-white text-left opacity-90">{@html bennyText}</p>
 </section>
@@ -32,7 +32,7 @@
     <div class="flex flex-row">
       <div class="flex flex-col items-left mr-12">
         <h2 class="font-serif text-6xl text-white text-left">TONY BÖCKER</h2>
-        <h3 class="font-serif font-bold text-2xl text-white text-left opacity-90">- Trauzeuge von Tobias -</h3>
+        <h3 class="font-serif font-bold text-2xl text-white text-left opacity-90">Trauzeuge von Tobias</h3>
         <div class="h-12"></div>
         <p class="font-serif text-xl text-white text-left opacity-90">{@html tonyText}</p>
       </div>
@@ -45,7 +45,7 @@
       <div class="bg-benny bg-cover bg-top rounded-full flex-shrink-0 flex-grow-0 w-96 h-96"></div>
       <div class="flex flex-col items-left ml-12">
         <h2 class="font-serif text-6xl text-white text-left">BENJAMIN ANSELM</h2>
-        <h3 class="font-serif font-bold text-2xl text-white text-left opacity-90">- Trauzeuge von Isabell -</h3>
+        <h3 class="font-serif font-bold text-2xl text-white text-left opacity-90">Trauzeuge von Isabell</h3>
         <div class="h-12"></div>
         <p class="font-serif text-xl text-white text-left opacity-90">{@html bennyText}</p>
       </div>

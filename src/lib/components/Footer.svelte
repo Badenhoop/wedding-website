@@ -1,9 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger);
+  import { gsap } from "gsap/dist/gsap"
 
   onMount(() => {
     let tl = gsap.timeline({
@@ -23,7 +20,7 @@
 
   <div class="flex flex-row items-center flex-wrap justify-center">
     <div class="picture bg-final bg-center bg-cover rounded-full w-[20rem] h-[20rem] lg:w-[30rem] lg:h-[30rem]"></div>
-    <h1 class="max-w-[60rem] mt-8 font-script text-6xl lg:text-9xl text-center text-white">Wir freuen uns auf Euch!</h1>
+    <h1 class="max-w-[60rem] p-8 font-script text-5xl lg:text-9xl text-center text-white">Wir freuen uns auf Euch!</h1>
   </div>
 
   <div class="h-24 lg:h-48"></div>

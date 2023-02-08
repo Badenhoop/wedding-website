@@ -9,7 +9,6 @@
   import Accommodations from '$lib/components/Accommodations.svelte'
   import Contact from '$lib/components/Contact.svelte'
   import Footer from '$lib/components/Footer.svelte'
-
 </script>
 
 <main>

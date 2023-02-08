@@ -1,9 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
+  import { gsap } from "gsap/dist/gsap"
 
   let offset: number = 0
   let lastTime: number | null = null

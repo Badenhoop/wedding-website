@@ -1,9 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
 
   interface Accommodation {
     name: string
@@ -139,7 +136,7 @@
 </script>
 
 <section class="accomodations bg-blue px-4 lg:px-8 py-24 lg:py-48 flex flex-col items-center">
-  <h1 class="font-script text-7xl lg:text-9xl text-center text-white">Unerkünfte</h1>
+  <h1 class="font-script text-5xl lg:text-9xl text-center text-white">Unerkünfte</h1>
   <div class="h-16 lg:h-32"></div>
   <div class="flex flex-row flex-wrap justify-center">
     {#each accommodations as accommodation}

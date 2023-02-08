@@ -1,9 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
+  import { gsap } from "gsap/dist/gsap"
 
   onMount(() => {
     gsap.utils.toArray('.notes').forEach((section: any) => {
@@ -17,7 +14,7 @@
         let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box,
-            start: 'top center',
+            start: 'top bottom',
           },
         })
 

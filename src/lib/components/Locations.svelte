@@ -3,10 +3,7 @@
   import church from '$lib/images/icons/blue/church.svg'
   import glasses from '$lib/images/icons/blue/glasses.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
+  import { gsap } from "gsap/dist/gsap"
 
   export let plural: boolean
   export let showMarriage: boolean
@@ -23,7 +20,7 @@
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: '.location-headline',
-        start: 'top center',
+        start: 'top bottom',
       },
     })
 
@@ -40,7 +37,7 @@
 </script>
 
 <section class="px-4 lg:px-8 py-24 lg:py:48 flex flex-col items-center bg-white">
-  <h1 class="location-headline font-script text-7xl lg:text-9xl text-center text-blue">{locationText}</h1>
+  <h1 class="location-headline font-script text-5xl lg:text-9xl text-center text-blue">{locationText}</h1>
   <div class="h-4 lg:h-8"></div>
   {#if showMarriage}
     <div class="h-4 lg:h-8"></div>

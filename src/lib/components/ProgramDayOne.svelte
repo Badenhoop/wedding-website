@@ -4,10 +4,7 @@
   import fork from '$lib/images/icons/white/fork.svg'
   import glasses from '$lib/images/icons/white/glasses.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
-
-  gsap.registerPlugin(ScrollTrigger)
+  import { gsap } from "gsap/dist/gsap"
 
   onMount(() => {
     gsap.utils.toArray('.program-day-one').forEach((section: any) => {
@@ -24,7 +21,7 @@
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: circleMain,
-          start: 'top center',
+          start: 'top bottom',
         },
       })
       
@@ -60,7 +57,7 @@
       </div>
       <div class="circle-2 rounded-full w-[7rem] h-[7rem] bg-blue flex flex-col justify-center items-center relative">
         <img class="w-[75%] h-[75%]" src={ring} alt="">
-        <h2 class="absolute left-[8rem] w-[15rem] font-serif text-black text-lg text-left">STANDESAMTLICHE<br>TRAUUNG</h2>
+        <h2 class="absolute left-[8rem] w-[15rem] font-serif text-black text-lg text-left">STANDES-<br>AMTLICHE<br>TRAUUNG</h2>
         <p class="absolute top-[-7rem] left-[5rem] font-script text-black text-6xl text-left opacity-30">-13:00-</p>
       </div>
       <div class="h-[10rem] w-1 relative">
