@@ -1,24 +1,4 @@
 {
-  "src/lib/images/icons/blue/wedding.svg": {
-    "file": "_app/immutable/assets/wedding-4162eb88.svg",
-    "src": "src/lib/images/icons/blue/wedding.svg"
-  },
-  "src/lib/images/icons/blue/church.svg": {
-    "file": "_app/immutable/assets/church-708ed6ef.svg",
-    "src": "src/lib/images/icons/blue/church.svg"
-  },
-  "src/lib/images/icons/blue/glasses.svg": {
-    "file": "_app/immutable/assets/glasses-bc5955d5.svg",
-    "src": "src/lib/images/icons/blue/glasses.svg"
-  },
-  "src/lib/images/icons/blue/disco.svg": {
-    "file": "_app/immutable/assets/disco-11f4c6db.svg",
-    "src": "src/lib/images/icons/blue/disco.svg"
-  },
-  "src/lib/images/icons/blue/ring.svg": {
-    "file": "_app/immutable/assets/ring-5578769d.svg",
-    "src": "src/lib/images/icons/blue/ring.svg"
-  },
   "src/lib/images/icons/white/calender.svg": {
     "file": "_app/immutable/assets/calender-e7d3887c.svg",
     "src": "src/lib/images/icons/white/calender.svg"
@@ -34,6 +14,26 @@
   "src/lib/images/icons/white/glasses.svg": {
     "file": "_app/immutable/assets/glasses-d4be61d2.svg",
     "src": "src/lib/images/icons/white/glasses.svg"
+  },
+  "src/lib/images/icons/blue/church.svg": {
+    "file": "_app/immutable/assets/church-708ed6ef.svg",
+    "src": "src/lib/images/icons/blue/church.svg"
+  },
+  "src/lib/images/icons/blue/wedding.svg": {
+    "file": "_app/immutable/assets/wedding-4162eb88.svg",
+    "src": "src/lib/images/icons/blue/wedding.svg"
+  },
+  "src/lib/images/icons/blue/glasses.svg": {
+    "file": "_app/immutable/assets/glasses-bc5955d5.svg",
+    "src": "src/lib/images/icons/blue/glasses.svg"
+  },
+  "src/lib/images/icons/blue/disco.svg": {
+    "file": "_app/immutable/assets/disco-11f4c6db.svg",
+    "src": "src/lib/images/icons/blue/disco.svg"
+  },
+  "src/lib/images/icons/blue/ring.svg": {
+    "file": "_app/immutable/assets/ring-5578769d.svg",
+    "src": "src/lib/images/icons/blue/ring.svg"
   },
   "src/lib/images/icons/blue/firework.svg": {
     "file": "_app/immutable/assets/firework-83e7a563.svg",
@@ -55,12 +55,10 @@
     "file": "_app/immutable/assets/_layout-6e7fa2e8.css",
     "src": "src/routes/+layout.css"
   },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-a756d149.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
-    "isDynamicEntry": true,
+  "_index-03ccf06c.js": {
+    "file": "_app/immutable/chunks/index-03ccf06c.js",
     "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+      "_index-522a0382.js"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
@@ -80,14 +78,11 @@
       "src/routes/+page.svelte"
     ]
   },
-  "_index-03ccf06c.js": {
-    "file": "_app/immutable/chunks/index-03ccf06c.js",
+  "_singletons-3c7bd221.js": {
+    "file": "_app/immutable/chunks/singletons-3c7bd221.js",
     "imports": [
-      "_index-522a0382.js"
+      "_index-03ccf06c.js"
     ]
-  },
-  "__page-da46b06b.js": {
-    "file": "_app/immutable/chunks/_page-da46b06b.js"
   },
   "src/routes/+page.ts": {
     "file": "_app/immutable/modules/pages/_page.ts-dc85b7cd.js",
@@ -95,12 +90,6 @@
     "isEntry": true,
     "imports": [
       "__page-da46b06b.js"
-    ]
-  },
-  "_singletons-3c7bd221.js": {
-    "file": "_app/immutable/chunks/singletons-3c7bd221.js",
-    "imports": [
-      "_index-03ccf06c.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
@@ -112,8 +101,16 @@
       "_singletons-3c7bd221.js"
     ]
   },
-  "_index-522a0382.js": {
-    "file": "_app/immutable/chunks/index-522a0382.js"
+  "__page-da46b06b.js": {
+    "file": "_app/immutable/chunks/_page-da46b06b.js"
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-a756d149.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
   },
   "src/routes/+layout.svelte": {
     "file": "_app/immutable/components/pages/_layout.svelte-4dc8b6c2.js",
@@ -125,6 +122,9 @@
     "css": [
       "_app/immutable/assets/_layout-6e7fa2e8.css"
     ]
+  },
+  "_index-522a0382.js": {
+    "file": "_app/immutable/chunks/index-522a0382.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
     "file": "_app/immutable/start-80cb9c8a.js",
