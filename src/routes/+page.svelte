@@ -5,10 +5,6 @@
   import PartyPage from './PartyPage.svelte'
 	import { activePage } from './store'
 	import type { ActivePage } from './store'
-	import { gsap } from 'gsap'
-  import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-
-  gsap.registerPlugin(ScrollTrigger)
 
 	let page: ActivePage
 	activePage.subscribe(value => page = value)

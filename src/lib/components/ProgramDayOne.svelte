@@ -4,7 +4,10 @@
   import fork from '$lib/images/icons/white/fork.svg'
   import glasses from '$lib/images/icons/white/glasses.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap"
+  import { gsap } from 'gsap/dist/gsap'
+  import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
 
   onMount(() => {
     gsap.utils.toArray('.program-day-one').forEach((section: any) => {

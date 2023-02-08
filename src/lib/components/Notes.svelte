@@ -1,6 +1,9 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap"
+  import { gsap } from 'gsap/dist/gsap'
+  import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
 
   onMount(() => {
     gsap.utils.toArray('.notes').forEach((section: any) => {

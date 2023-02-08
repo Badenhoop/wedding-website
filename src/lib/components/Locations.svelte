@@ -3,7 +3,10 @@
   import church from '$lib/images/icons/blue/church.svg'
   import glasses from '$lib/images/icons/blue/glasses.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap"
+  import { gsap } from 'gsap/dist/gsap'
+  import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
 
   export let plural: boolean
   export let showMarriage: boolean

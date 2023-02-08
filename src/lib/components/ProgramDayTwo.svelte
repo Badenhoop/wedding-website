@@ -4,7 +4,10 @@
   import glasses from '$lib/images/icons/blue/glasses.svg'
   import disco from '$lib/images/icons/blue/disco.svg'
   import { onMount } from 'svelte'
-  import { gsap } from "gsap/dist/gsap"
+  import { gsap } from 'gsap/dist/gsap'
+  import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+
+  gsap.registerPlugin(ScrollTrigger)
 
   onMount(() => {
     gsap.utils.toArray('.program-day-two').forEach((section: any) => {
