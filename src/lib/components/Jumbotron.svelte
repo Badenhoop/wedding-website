@@ -32,6 +32,10 @@
     countdownText = countdown(startDate)
   }, 1000)
 
+  function scrollIntoView(id: string) {
+    document.getElementById(id)!.scrollIntoView()
+  }
+
 </script>
 
 <section class="w-screen h-screen relative">
@@ -42,12 +46,12 @@
   <div class="w-full h-full absolute bg-black opacity-30"></div>
   <div class="w-full h-full absolute flex flex-col justify-between items-center">
     <ul class="p-4 flex flex-row justify-center flex-wrap">
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">ABLAUF</li>
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">{location}</li>
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">TRAUZEUGEN</li>
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">HINWEISE</li>
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">UNTERKÜNFTE</li>
-      <li class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer">RÜCKMELDUNG</li>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("program")}>ABLAUF</button>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("locations")}>{location}</button>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("best-men")}>TRAUZEUGEN</button>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("notes")}>HINWEISE</button>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("accomodations")}>UNTERKÜNFTE</button>
+      <button class="font-sans font-light text-white text-sm lg:text-lg tracking-widest opacity-70 px-2 lg:px-4 hover:cursor-pointer" on:click={_ => scrollIntoView("contact")}>RÜCKMELDUNG</button>
     </ul>
     <div class="p-4 flex flex-col items-center">
       <h3 class="font-sans font-extralight text-white text-2xl lg:text-5xl text-center tracking-widest">ISABELL UND TOBIAS</h3>

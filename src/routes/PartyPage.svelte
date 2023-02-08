@@ -17,15 +17,27 @@
     dateHeadline="01. JULI 2023"
     startDate={new Date(2023, 6, 1)} />
   <Footage />
-  <ProgramParty />
-  <Locations
-    plural={false}
-    showMarriage={false}
-    showChurch={false}
-    showVilla={true} />
-  <BestMen />
-  <Notes />
-  <Accommodations />
-  <Contact />
+  <div id="program">
+    <ProgramParty />
+  </div>
+  <div id="locations">
+    <Locations
+      plural={false}
+      showMarriage={false}
+      showChurch={false}
+      showVilla={true} />
+  </div>
+  <div id="best-men">
+    <BestMen />
+  </div>
+  <div id="notes">
+    <Notes />
+  </div>
+  <div id="accomodations">
+    <Accommodations />
+  </div>
+  <div id="contact">
+    <Contact />
+  </div>
   <Footer />
 </main>

@@ -47,7 +47,7 @@
       <div class="radiobox">
         <div class="radiomark"></div>
       </div>
-      <div class="w-2"></div>
+      <div class="w-4"></div>
       <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir kann (können) leider nicht teilnehmen.</p>
     </label>
 
@@ -59,7 +59,7 @@
       <div class="radiobox">
         <div class="radiomark"></div>
       </div>
-      <div class="w-2"></div>
+      <div class="w-4"></div>
       <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir möchte(n) teilnehmen.</p>
     </label>
 
@@ -72,7 +72,7 @@
       <div class="checkbox">
         <div class="checkmark"></div>
       </div>
-      <div class="w-2"></div>
+      <div class="w-4"></div>
       <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir komme(n) mit Kind(ern).</p>
     </label>
 
@@ -87,7 +87,7 @@
       <div class="checkbox">
         <div class="checkmark"></div>
       </div>
-      <div class="w-2"></div>
+      <div class="w-4"></div>
       <p class="font-serif text-left text-lg lg:text-2xl text-black">Hiermit akzeptiere ich die <a class="font-semibold underline" href="https://uply-app.com/privacy-policy/de">Datenschutzbestimmung</a>.</p>
     </label>
     <div class="h-4 lg:h-8"></div>
@@ -102,7 +102,7 @@
   }
 
   .checkbox, .radiobox {
-    @apply relative h-6 w-6 bg-white border-2 border-black rounded-md;
+    @apply relative flex-shrink-0 flex-grow-0 h-6 w-6 bg-white border-2 border-black rounded-md;
   }
 
   .radiobox {
@@ -122,6 +122,6 @@
   }
 
   .radiomark {
-    @apply hidden w-[0.6rem] h-[0.6rem] bg-black rounded-full;
+    @apply hidden flex-shrink-0 flex-grow-0 w-[0.6rem] h-[0.6rem] bg-black rounded-full;
   }
 </style>

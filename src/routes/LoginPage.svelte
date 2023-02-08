@@ -5,11 +5,11 @@
 	let error: string = ''
 
 	function submit() {
-		if (password === '123') {
+		if (password === 'Tosi23') {
 			activePage.set('marriage')
-		} else if (password === '456') {
+		} else if (password === 'Tosi0107') {
 			activePage.set('church')
-		} else if (password === '789') {
+		} else if (password === 'Partyhard') {
 			activePage.set('party')
 		} else {
 			error = 'Falsches Passwort!'
