@@ -41,6 +41,7 @@
 
 <section class="px-4 lg:px-8 py-24 lg:py:48 flex flex-col items-center bg-white">
   <h1 class="location-headline font-script text-7xl lg:text-9xl text-center text-blue">{locationText}</h1>
+  <div class="h-4 lg:h-8"></div>
   {#if showMarriage}
     <div class="h-4 lg:h-8"></div>
     <button class="location-1 w-full max-w-[35rem] lg:max-w-[55rem] rounded-2xl lg:rounded-3xl bg-blue p-4 lg:px-16 lg:py-12 flex flex-row justify-start items-center cursor-pointer"

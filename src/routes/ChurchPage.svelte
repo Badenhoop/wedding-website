@@ -10,7 +10,7 @@
   import Footer from '$lib/components/Footer.svelte'
 </script>
 
-<main class="w-screen overflow-x-hidden">
+<main>
   <Jumbotron 
     multipleLocations={true}
     multipleDates={false}

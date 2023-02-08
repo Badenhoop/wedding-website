@@ -17,11 +17,11 @@
         let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box,
-            start: 'top bottom',
+            start: 'top center',
           },
         })
 
-        tl.from(box, { scale: 0, duration: 1 })
+        tl.from(box, { scaleX: 0, duration: 0.5 })
           .from(headline, { scale: 0, opacity: 0, duration: 0.25 })
           .from(line1, { scaleY: 0, duration: 0.25 })
           .from(note1, { scale: 0, opacity: 0, duration: 0.25 })

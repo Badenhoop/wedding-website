@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/forms": "^0.5.3",
 		"gsap": "^3.11.4"
 	}
 }

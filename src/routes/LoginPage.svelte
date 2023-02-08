@@ -23,7 +23,7 @@
 			<h1 class="font-script text-8xl text-white">Login</h1>
 			<h2 class="mt-24 font-serif text-3xl text-white">Code eingeben.</h2>
 			<label class="mt-6 pl-2 font-sans font-extralight text-md tracking-[.5em] text-white" for="password">PASSWORT</label>
-			<input class="mt-1 w-80 h-12 bg-blue border-solid border-[1px] focus:border-[2px] border-white rounded-lg outline-none p-2 text-white text-serif font-extralight placeholder:text-white placeholder:text-serif placeholder:font-extralight placeholder:opacity-50" 
+			<input class="mt-1 w-80 h-12 bg-blue border-solid border-[1px] focus:border-[2px] border-white rounded-lg outline-none focus:ring-white p-2 text-white text-serif font-extralight placeholder:text-white placeholder:text-serif placeholder:font-extralight placeholder:opacity-50" 
 					   id="password" 
 						 placeholder="*************" 
 						 type="password" 
@@ -41,7 +41,7 @@
 		<div class="flex flex-col items-start">
 			<h2 class="font-serif text-4xl text-white">Code eingeben.</h2>
 			<label class="mt-12 pl-2 font-sans font-extralight text-md tracking-[.5em] text-white" for="password">PASSWORT</label>
-			<input class="mt-1 w-80 h-12 bg-blue border-solid border-[1px] focus:border-[2px] border-white rounded-lg outline-none p-2 text-white text-serif font-extralight placeholder:text-white placeholder:text-serif placeholder:font-extralight placeholder:opacity-50" 
+			<input class="mt-1 w-80 h-12 bg-blue border-solid border-[1px] focus:border-[2px] border-white rounded-lg outline-none focus:ring-white p-2 text-white text-serif font-extralight placeholder:text-white placeholder:text-serif placeholder:font-extralight placeholder:opacity-50" 
 					   id="password" 
 						 placeholder="*************" 
 						 type="password" 

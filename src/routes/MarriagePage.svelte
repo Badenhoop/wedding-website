@@ -12,7 +12,7 @@
 
 </script>
 
-<main class="w-screen overflow-x-hidden">
+<main>
   <Jumbotron 
     multipleLocations={true}
     multipleDates={true}

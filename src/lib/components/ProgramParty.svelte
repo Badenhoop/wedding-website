@@ -10,15 +10,15 @@
 
   onMount(() => {
     gsap.utils.toArray('.program-party').forEach((section: any) => {
-        const circleMain = section.querySelector('.circle-main')
-        const line1 = section.querySelector('.line-1')
-        const circle1 = section.querySelector('.circle-1')
-        const line2 = section.querySelector('.line-2')
-        const circle2 = section.querySelector('.circle-2')
-        const line3 = section.querySelector('.line-3')
-        const circle3 = section.querySelector('.circle-3')
+      const circleMain = section.querySelector('.circle-main')
+      const line1 = section.querySelector('.line-1')
+      const circle1 = section.querySelector('.circle-1')
+      const line2 = section.querySelector('.line-2')
+      const circle2 = section.querySelector('.circle-2')
+      const line3 = section.querySelector('.line-3')
+      const circle3 = section.querySelector('.circle-3')
 
-        let tl = gsap.timeline({
+      let tl = gsap.timeline({
         scrollTrigger: {
           trigger: circleMain,
           start: 'top center',
