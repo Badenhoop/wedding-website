@@ -9,7 +9,8 @@ module.exports = {
       script: ['WindSong', 'cursive'],
     },
     colors: {
-      'blue': '#297C72',
+      // 'blue': '#297C72',
+      'blue': '#5B855A',
       'white': '#FFF0F0',
       'black': '#000000',
     },
