@@ -17,6 +17,8 @@
         const note3 = section.querySelector('.note-3')
         const line4 = section.querySelector('.line-4')
         const note4 = section.querySelector('.note-4')
+        const line5 = section.querySelector('.line-5')
+        const note5 = section.querySelector('.note-5')
 
         let tl = gsap.timeline({
           scrollTrigger: {
@@ -35,6 +37,8 @@
           .from(note3, { scale: 0, opacity: 0, duration: 0.25 })
           .from(line4, { scaleY: 0, duration: 0.25 })
           .from(note4, { scale: 0, opacity: 0, duration: 0.25 })
+          .from(line5, { scaleY: 0, duration: 0.25 })
+          .from(note5, { scale: 0, opacity: 0, duration: 0.25 })
     })
   })
 
@@ -48,8 +52,10 @@
     <div class="line-2 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
     <p class="note-2 font-serif text-xl lg:text-3xl text-white text-center">GESCHENKIDEEN UND EXTERNE PROGRAMMPUNKTE BITTE MIT DEN <b>TRAUZEUGEN</b> ABKLÄREN.</p>
     <div class="line-3 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
-    <p class="note-3 font-serif text-xl lg:text-3xl text-white text-center">WIR WERDEN EINEN <b>SHUTTLE-SERVICE</b> ANBIETEN, UM EUCH VON DER VILLA ZUR UNTERBRINGUNG ZU FAHREN.</p>
+    <p class="note-3 font-serif text-xl lg:text-3xl text-white text-center">ES WIRD EIN <b>SHUTTLE-SERVICE</b> ZUR VERFÜGUNG STEHEN, UM EUCH VON DER VILLA ZUR UNTERBRINGUNG ZU FAHREN. BITTE KONTAKTIERT HIERFÜR:<br><br>Flora Maier<br>Tel: +49 1525 3244306</p>
     <div class="line-4 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
-    <p class="note-4 font-serif text-xl lg:text-3xl text-white text-center">BITTE GIBT UNS BIS ZUM <b>30. APRIL</b> EINE RÜCKMELDUNG.</p>
+    <p class="note-4 font-serif text-xl lg:text-3xl text-white text-center">UNSERE <b>KLEIDERORDNUNG</b>:<br> SOMMERLICH ELEGANT.</p>
+    <div class="line-5 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
+    <p class="note-5 font-serif text-xl lg:text-3xl text-white text-center">BITTE GEBT UNS BIS ZUM <b>30. APRIL</b> EINE RÜCKMELDUNG.</p>
   </div>
 </section>
