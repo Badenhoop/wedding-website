@@ -52,7 +52,7 @@
     <div class="line-2 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
     <p class="note-2 font-serif text-xl lg:text-3xl text-white text-center">GESCHENKIDEEN UND EXTERNE PROGRAMMPUNKTE BITTE MIT DEN <b>TRAUZEUGEN</b> ABKLÄREN.</p>
     <div class="line-3 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
-    <p class="note-3 font-serif text-xl lg:text-3xl text-white text-center">ES WIRD EIN <b>SHUTTLE-SERVICE</b> ZUR VERFÜGUNG STEHEN, UM EUCH VON DER VILLA ZUR UNTERBRINGUNG ZU FAHREN. BITTE KONTAKTIERT HIERFÜR:<br><br>Flora Maier<br>Tel: +49 1525 3244306</p>
+    <p class="note-3 font-serif text-xl lg:text-3xl text-white text-center">ES WIRD EIN <b>SHUTTLE-SERVICE</b> ZUR VERFÜGUNG STEHEN, UM EUCH VON DER VILLA ZUR UNTERBRINGUNG ZU FAHREN. BITTE KONTAKTIERT HIERFÜR:<br><br>Jens Maier<br>Tel: +49 1525 3244306</p>
     <div class="line-4 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
     <p class="note-4 font-serif text-xl lg:text-3xl text-white text-center">UNSERE <b>KLEIDERORDNUNG</b>:<br> SOMMERLICH ELEGANT.</p>
     <div class="line-5 my-8 lg:my-12 h-12 lg:h-24 w-[1px] bg-white opacity-80"></div>
