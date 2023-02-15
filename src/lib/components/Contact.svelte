@@ -48,7 +48,7 @@
         <div class="radiomark"></div>
       </div>
       <div class="w-4"></div>
-      <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir kann (können) leider nicht teilnehmen.</p>
+      <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir möchte(n) teilnehmen.</p>
     </label>
 
     <label class="flex flex-row items-center cursor-pointer" for="dont-participate">
@@ -60,7 +60,7 @@
         <div class="radiomark"></div>
       </div>
       <div class="w-4"></div>
-      <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir möchte(n) teilnehmen.</p>
+      <p class="font-serif text-left text-lg lg:text-2xl text-black">Ich bzw. wir kann (können) leider nicht teilnehmen.</p>
     </label>
 
     <div class="h-4 lg:h-8"></div>
