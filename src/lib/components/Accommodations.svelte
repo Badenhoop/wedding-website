@@ -117,6 +117,11 @@
       phoneNumber: "033763 61",
       link: "https://maps.app.goo.gl/eVMUnxxqNXazqSBc9?g_st=iw"
     },
+    {
+      name: "Kleemann's Apartment",
+      phoneNumber: "033708 444366",
+      link: "https://maps.app.goo.gl/kU8NzuXZnzUushzo8?g_st=ic"
+    },
   ]
 
   function openInNewTab(url: string) {
