@@ -122,6 +122,61 @@
       phoneNumber: "033708 444366",
       link: "https://maps.app.goo.gl/kU8NzuXZnzUushzo8?g_st=ic"
     },
+    {
+      name: "Evchens Pension",
+      phoneNumber: "033704 66486",
+      link: "https://maps.app.goo.gl/fjtsapWcna81Lo646?g_st=iw",
+    },
+    {
+      name: "Gasthaus Jahn",
+      phoneNumber: "033704 66223",
+      link: "https://maps.app.goo.gl/8qfmmYRQujcEN6xk9?g_st=iw",
+    },
+    {
+      name: "Zimmervermietung Rüger - Ferienwohnung in Baruth/Mark",
+      phoneNumber: "0172 3124492",
+      link: "https://maps.app.goo.gl/S5b2YGoiHobFMJTN7?g_st=iw",
+    },
+    {
+      name: "Haus Namenlos",
+      phoneNumber: "0160 7408952",
+      link: "https://maps.app.goo.gl/rqQzabCyqeFYFfwo7?g_st=iw",
+    },
+    {
+      name: "Thomas Schmiedecke",
+      phoneNumber: "033704 61806",
+      link: "https://maps.app.goo.gl/CmLKpwMNCzrujwDq9?g_st=iw",
+    },
+    {
+      name: "Pension H&W für Monteure",
+      phoneNumber: "0176 40475662",
+      link: "https://maps.app.goo.gl/4o18e2BTAuNdq3AQ7?g_st=iw",
+    },
+    {
+      name: "Spruchs Alter Landgasthof",
+      phoneNumber: "033704 66353",
+      link: "https://maps.app.goo.gl/hEhpV7PWBGyKxTG5A?g_st=iw",
+    },
+    {
+      name: "Museumsherberge Glashütte e.V.",
+      phoneNumber: "033704 67474",
+      link: "https://maps.app.goo.gl/yvWJQ6ksrRpjUumb8?g_st=iw",
+    },
+    {
+      name: "Kulturhof Klasdorf",
+      phoneNumber: "033704 689331",
+      link: "https://maps.app.goo.gl/FWw1CqXvuS4DMrVK6?g_st=iw",
+    },
+    {
+      name: "Landgasthaus Wiest",
+      phoneNumber: "033704 61576",
+      link: "https://maps.app.goo.gl/LjHCkYv7f4tw96Sy7?g_st=iw",
+    },
+    {
+      name: "Ferienwohnungen und Café im Bahnhof Klasdorf",
+      phoneNumber: "01516 8135224",
+      link: "https://maps.app.goo.gl/2sBBMCiopyWhKppS7?g_st=iw",
+    },
   ]
 
   function openInNewTab(url: string) {
