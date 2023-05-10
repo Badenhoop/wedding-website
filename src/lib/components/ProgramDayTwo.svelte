@@ -3,6 +3,9 @@
   import wedding from '$lib/images/icons/blue/wedding.svg'
   import glasses from '$lib/images/icons/blue/glasses.svg'
   import disco from '$lib/images/icons/blue/disco.svg'
+  import ballons from '$lib/images/icons/blue/ballons.svg'
+  import cake from '$lib/images/icons/blue/cake.svg'
+  import dish from '$lib/images/icons/blue/dish.svg'
   import { onMount } from 'svelte'
   import { gsap } from 'gsap/dist/gsap'
   import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
@@ -12,14 +15,12 @@
   onMount(() => {
     gsap.utils.toArray('.program-day-two').forEach((section: any) => {
       const circleMain = section.querySelector('.circle-main')
-      const line1 = section.querySelector('.line-1')
-      const circle1 = section.querySelector('.circle-1')
-      const line2 = section.querySelector('.line-2')
-      const circle2 = section.querySelector('.circle-2')
-      const line3 = section.querySelector('.line-3')
-      const circle3 = section.querySelector('.circle-3')
-      const line4 = section.querySelector('.line-4')
-      const circle4 = section.querySelector('.circle-4')
+      const lines = []
+      const circles = []
+      for (let i = 1; i <= 7; i++) {
+        lines.push(section.querySelector(`.line-${i}`))
+        circles.push(section.querySelector(`.circle-${i}`))
+      }
 
       let tl = gsap.timeline({
         scrollTrigger: {
@@ -29,14 +30,11 @@
       })
       
       tl.from(circleMain, { scale: 0, duration: 1 })
-        .from(line1, { height: 0, duration: 0.5 })
-        .from(circle1, { scale: 0, duration: 0.25 })
-        .from(line2, { height: 0, duration: 0.5 })
-        .from(circle2, { scale: 0, duration: 0.25 })
-        .from(line3, { height: 0, duration: 0.5 })
-        .from(circle3, { scale: 0, duration: 0.25 })
-        .from(line4, { height: 0, duration: 0.5 })
-        .from(circle4, { scale: 0, duration: 0.25 })
+
+      for (let i = 0; i < lines.length; i++) {
+        tl.from(lines[i], { height: 0, duration: 0.5 })
+        tl.from(circles[i], { scale: 0, duration: 0.25 })
+      }
     });
   })
 </script>
@@ -75,6 +73,30 @@
         <div class="line-4 h-[10rem] w-1 bg-white"></div>
       </div>
       <div class="circle-4 rounded-full w-[7rem] h-[7rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={ballons} alt="">
+        <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">BRAUTPAAR<br>EMPFANG</h2>
+        <p class="absolute top-[-7rem] right-[5rem] font-script text-white text-6xl text-right opacity-30">-16:00-</p>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-5 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-5 rounded-full w-[7rem] h-[7rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={cake} alt="">
+        <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">TORTEN-<br>ANSCHNITT</h2>
+        <p class="absolute top-[-7rem] right-[5rem] font-script text-white text-6xl text-right opacity-30">-17:00-</p>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-6 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-6 rounded-full w-[7rem] h-[7rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={dish} alt="">
+        <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">ABENDESSEN</h2>
+        <p class="absolute top-[-7rem] right-[5rem] font-script text-white text-6xl text-right opacity-30">-19:00-</p>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-7 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-7 rounded-full w-[7rem] h-[7rem] bg-white flex flex-col justify-center items-center relative">
         <img class="w-[75%] h-[75%]" src={disco} alt="">
         <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">PARTY<br>HARD</h2>
         <p class="absolute top-[-7rem] right-[5rem] font-script text-white text-6xl text-right opacity-30">-21:30-</p>
@@ -126,6 +148,39 @@
         <div class="line-4 h-[10rem] w-1 bg-white"></div>
       </div>
       <div class="circle-4 rounded-full w-[8rem] h-[8rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={ballons} alt="">
+        <div class="absolute flex flex-row items-center right-[9rem]">
+          <p class="font-script text-white text-6xl text-right opacity-30">-16:00-</p>
+          <div class="w-[1rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-2xl text-right">BRAUTPAAR<br>EMPFANG</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-5 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-5 rounded-full w-[8rem] h-[8rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={cake} alt="">
+        <div class="absolute flex flex-row items-center right-[9rem]">
+          <p class="font-script text-white text-6xl text-right opacity-30">-17:00-</p>
+          <div class="w-[1rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-2xl text-right">TORTEN-<br>ANSCHNITT</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-6 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-6 rounded-full w-[8rem] h-[8rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={dish} alt="">
+        <div class="absolute flex flex-row items-center right-[9rem]">
+          <p class="font-script text-white text-6xl text-right opacity-30">-19:00-</p>
+          <div class="w-[1rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-2xl text-right">ABENDESSEN</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-7 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-7 rounded-full w-[8rem] h-[8rem] bg-white flex flex-col justify-center items-center relative">
         <img class="w-[75%] h-[75%]" src={disco} alt="">
         <div class="absolute flex flex-row items-center right-[9rem]">
           <p class="font-script text-white text-6xl text-right opacity-30">-21:30-</p>
@@ -180,6 +235,39 @@
         <div class="line-4 h-[10rem] w-1 bg-white"></div>
       </div>
       <div class="circle-4 rounded-full w-[10rem] h-[10rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={ballons} alt="">
+        <div class="absolute flex flex-row items-center right-[12rem]">
+          <p class="font-script text-white text-8xl text-right opacity-30">-16:00-</p>
+          <div class="w-[15rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">BRAUTPAAR<br>EMPFANG</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-5 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-5 rounded-full w-[10rem] h-[10rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={cake} alt="">
+        <div class="absolute flex flex-row items-center right-[12rem]">
+          <p class="font-script text-white text-8xl text-right opacity-30">-17:00-</p>
+          <div class="w-[15rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">TORTEN-<br>ANSCHNITT</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-6 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-6 rounded-full w-[10rem] h-[10rem] bg-white flex flex-col justify-center items-center relative">
+        <img class="w-[75%] h-[75%]" src={dish} alt="">
+        <div class="absolute flex flex-row items-center right-[12rem]">
+          <p class="font-script text-white text-8xl text-right opacity-30">-19:00-</p>
+          <div class="w-[15rem]"></div>
+          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">ABENDESSEN</h2>
+        </div>
+      </div>
+      <div class="h-[10rem] w-1 relative">
+        <div class="line-7 h-[10rem] w-1 bg-white"></div>
+      </div>
+      <div class="circle-7 rounded-full w-[10rem] h-[10rem] bg-white flex flex-col justify-center items-center relative">
         <img class="w-[75%] h-[75%]" src={disco} alt="">
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-21:30-</p>
