@@ -66,7 +66,7 @@
       </div>
       <div class="circle-3 rounded-full w-[7rem] h-[7rem] bg-white flex flex-col justify-center items-center relative">
         <img class="w-[75%] h-[75%]" src={glasses} alt="">
-        <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">ÜBERFAHRT<br>ZUR VILLA</h2>
+        <h2 class="absolute right-[8rem] w-[15rem] font-serif text-white text-lg text-right">EIGENSTÄNDIGE<br>ÜBERFAHRT<br>ZUR VILLA</h2>
         <p class="absolute top-[-7rem] right-[5rem] font-script text-white text-6xl text-right opacity-30">-14:00-</p>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -141,7 +141,7 @@
         <div class="absolute flex flex-row items-center right-[9rem]">
           <p class="font-script text-white text-6xl text-right opacity-30">-14:00-</p>
           <div class="w-[1rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-2xl text-right">ÜBERFAHRT<br>ZUR VILLA</h2>
+          <h2 class="w-[15rem] font-serif text-white text-2xl text-right">EIGENSTÄNDIGE<br>ÜBERFAHRT<br>ZUR VILLA</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -206,7 +206,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-12:30-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">ANKUNFT<br>KIRCHE</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">ANKUNFT<br>KIRCHE</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -217,7 +217,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-13:00-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">KIRCHLICHE<br>TRAUUNG</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">KIRCHLICHE<br>TRAUUNG</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -228,7 +228,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-14:00-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">ÜBERFAHRT<br>ZUR VILLA</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">EIGENSTÄNDIGE<br>ÜBERFAHRT<br>ZUR VILLA</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -239,7 +239,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-16:00-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">BRAUTPAAR<br>EMPFANG</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">BRAUTPAAR<br>EMPFANG</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -250,7 +250,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-17:00-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">TORTEN-<br>ANSCHNITT</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">TORTEN-<br>ANSCHNITT</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -261,7 +261,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-19:00-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">ABENDESSEN</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">ABENDESSEN</h2>
         </div>
       </div>
       <div class="h-[10rem] w-1 relative">
@@ -272,7 +272,7 @@
         <div class="absolute flex flex-row items-center right-[12rem]">
           <p class="font-script text-white text-8xl text-right opacity-30">-21:30-</p>
           <div class="w-[15rem]"></div>
-          <h2 class="w-[15rem] font-serif text-white text-4xl text-right">PARTY<br>HARD</h2>
+          <h2 class="w-[20rem] font-serif text-white text-4xl text-right">PARTY<br>HARD</h2>
         </div>
       </div>
     </div>

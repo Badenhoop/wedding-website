@@ -1,5 +1,6 @@
 <script lang="ts">
   import ring from '$lib/images/icons/blue/ring.svg'
+  import dish from '$lib/images/icons/blue/dish.svg'
   import church from '$lib/images/icons/blue/church.svg'
   import glasses from '$lib/images/icons/blue/glasses.svg'
   import { onMount } from 'svelte'
@@ -27,14 +28,20 @@
       },
     })
 
+    let x = 50
     if (showMarriage) {
-      tl.from('.location-1', { duration: 0.5, x: 50, opacity: 0 })
+      tl.from('.location-1', { duration: 0.5, x: x, opacity: 0 })
+      x += 50
+      tl.from('.location-2', { duration: 0.5, x: x, opacity: 0 })
+      x += 50
     }
     if (showChurch) {
-      tl.from('.location-2', { duration: 0.5, x: 100, opacity: 0 }, '-=0.25')
+      tl.from('.location-3', { duration: 0.5, x: x, opacity: 0 }, '-=0.25')
+      x += 50
     }
     if (showVilla) {
-      tl.from('.location-3', { duration: 0.5, x: 150, opacity: 0 }, '-=0.25')
+      tl.from('.location-4', { duration: 0.5, x: x, opacity: 0 }, '-=0.25')
+      x += 50
     }
   })
 </script>
@@ -53,6 +60,18 @@
       <div class="flex flex-col items-start">
         <h2 class="font-serif text-xl lg:text-4xl text-left text-white">STANDESAMT POTSDAM</h2>
         <h3 class="font-serif text-md lg:text-xl text-left text-white opacity-90">Friedrich-Ebert-Straße 79/81 - 14469 Potsdam</h3>
+      </div>
+    </button>
+    <div class="h-4 lg:h-8"></div>
+    <button class="location-1 w-full max-w-[35rem] lg:max-w-[55rem] rounded-2xl lg:rounded-3xl bg-blue p-4 lg:px-16 lg:py-12 flex flex-row justify-start items-center cursor-pointer"
+      on:click={_ => openInNewTab('https://maps.app.goo.gl/wEG8r8T3RXAqiD7v7?g_st=iw')}>
+      <div class="rounded-full bg-white w-20 h-20 lg:w-32 lg:h-32 flex-shrink-0 flex-grow-0 flex flex-col justify-center items-center">
+        <img class="w-[75%] h-[75%]" src={dish} alt="">
+      </div>
+      <div class="w-4 lg:w-8"></div>
+      <div class="flex flex-col items-start">
+        <h2 class="font-serif text-xl lg:text-4xl text-left text-white">RESTAURANT</h2>
+        <h3 class="font-serif text-md lg:text-xl text-left text-white opacity-90">Schiffbauergasse 12 - 14467 Potsdam</h3>
       </div>
     </button>
   {/if}
