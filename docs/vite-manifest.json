@@ -1,19 +1,35 @@
 {
-  "src/lib/images/icons/blue/ring.svg": {
-    "file": "_app/immutable/assets/ring-ec176ec6.svg",
-    "src": "src/lib/images/icons/blue/ring.svg"
+  "src/lib/images/icons/white/fork.svg": {
+    "file": "_app/immutable/assets/fork-b5be1a95.svg",
+    "src": "src/lib/images/icons/white/fork.svg"
+  },
+  "src/lib/images/icons/white/ring.svg": {
+    "file": "_app/immutable/assets/ring-fffdcdee.svg",
+    "src": "src/lib/images/icons/white/ring.svg"
+  },
+  "src/lib/images/icons/white/calender.svg": {
+    "file": "_app/immutable/assets/calender-e7d3887c.svg",
+    "src": "src/lib/images/icons/white/calender.svg"
+  },
+  "src/lib/images/icons/white/glasses.svg": {
+    "file": "_app/immutable/assets/glasses-d4be61d2.svg",
+    "src": "src/lib/images/icons/white/glasses.svg"
   },
   "src/lib/images/icons/blue/church.svg": {
     "file": "_app/immutable/assets/church-d102030f.svg",
     "src": "src/lib/images/icons/blue/church.svg"
   },
-  "src/lib/images/icons/blue/dish.svg": {
-    "file": "_app/immutable/assets/dish-76872c72.svg",
-    "src": "src/lib/images/icons/blue/dish.svg"
+  "src/lib/images/icons/blue/ring.svg": {
+    "file": "_app/immutable/assets/ring-ec176ec6.svg",
+    "src": "src/lib/images/icons/blue/ring.svg"
   },
   "src/lib/images/icons/blue/glasses.svg": {
     "file": "_app/immutable/assets/glasses-eb0d70e1.svg",
     "src": "src/lib/images/icons/blue/glasses.svg"
+  },
+  "src/lib/images/icons/blue/dish.svg": {
+    "file": "_app/immutable/assets/dish-76872c72.svg",
+    "src": "src/lib/images/icons/blue/dish.svg"
   },
   "src/lib/images/icons/blue/wedding.svg": {
     "file": "_app/immutable/assets/wedding-6dea3c85.svg",
@@ -27,26 +43,6 @@
     "file": "_app/immutable/assets/ballons-b4feeefe.svg",
     "src": "src/lib/images/icons/blue/ballons.svg"
   },
-  "src/lib/images/icons/blue/cake.svg": {
-    "file": "_app/immutable/assets/cake-9201ee49.svg",
-    "src": "src/lib/images/icons/blue/cake.svg"
-  },
-  "src/lib/images/icons/white/calender.svg": {
-    "file": "_app/immutable/assets/calender-e7d3887c.svg",
-    "src": "src/lib/images/icons/white/calender.svg"
-  },
-  "src/lib/images/icons/white/ring.svg": {
-    "file": "_app/immutable/assets/ring-fffdcdee.svg",
-    "src": "src/lib/images/icons/white/ring.svg"
-  },
-  "src/lib/images/icons/white/fork.svg": {
-    "file": "_app/immutable/assets/fork-b5be1a95.svg",
-    "src": "src/lib/images/icons/white/fork.svg"
-  },
-  "src/lib/images/icons/white/glasses.svg": {
-    "file": "_app/immutable/assets/glasses-d4be61d2.svg",
-    "src": "src/lib/images/icons/white/glasses.svg"
-  },
   "src/lib/images/icons/blue/firework.svg": {
     "file": "_app/immutable/assets/firework-498223d1.svg",
     "src": "src/lib/images/icons/blue/firework.svg"
@@ -54,6 +50,10 @@
   "src/lib/images/icons/blue/beer.svg": {
     "file": "_app/immutable/assets/beer-4cd2592c.svg",
     "src": "src/lib/images/icons/blue/beer.svg"
+  },
+  "src/lib/images/icons/blue/cake.svg": {
+    "file": "_app/immutable/assets/cake-9201ee49.svg",
+    "src": "src/lib/images/icons/blue/cake.svg"
   },
   "src/lib/videos/proposal.mp4": {
     "file": "_app/immutable/assets/proposal-a2c706a1.mp4",
@@ -67,12 +67,36 @@
     "file": "_app/immutable/assets/_layout-549edb2b.css",
     "src": "src/routes/+layout.css"
   },
+  "_index-03ccf06c.js": {
+    "file": "_app/immutable/chunks/index-03ccf06c.js",
+    "imports": [
+      "_index-522a0382.js"
+    ]
+  },
+  "__page-da46b06b.js": {
+    "file": "_app/immutable/chunks/_page-da46b06b.js"
+  },
   ".svelte-kit/generated/nodes/1.js": {
     "file": "_app/immutable/chunks/1-a756d149.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-9b421d85.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-da46b06b.js",
+      "src/routes/+page.svelte"
+    ]
+  },
+  "_singletons-3c7bd221.js": {
+    "file": "_app/immutable/chunks/singletons-3c7bd221.js",
+    "imports": [
+      "_index-03ccf06c.js"
     ]
   },
   "src/routes/+page.ts": {
@@ -83,22 +107,12 @@
       "__page-da46b06b.js"
     ]
   },
-  "__page-da46b06b.js": {
-    "file": "_app/immutable/chunks/_page-da46b06b.js"
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-f1758089.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-06ee3bc0.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
-      "__page-da46b06b.js",
-      "src/routes/+page.svelte"
-    ]
-  },
-  "_index-03ccf06c.js": {
-    "file": "_app/immutable/chunks/index-03ccf06c.js",
-    "imports": [
-      "_index-522a0382.js"
+      "src/routes/+layout.svelte"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
@@ -108,20 +122,6 @@
     "imports": [
       "_index-522a0382.js",
       "_singletons-3c7bd221.js"
-    ]
-  },
-  "_singletons-3c7bd221.js": {
-    "file": "_app/immutable/chunks/singletons-3c7bd221.js",
-    "imports": [
-      "_index-03ccf06c.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-06ee3bc0.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+layout.svelte"
     ]
   },
   "_index-522a0382.js": {
@@ -139,7 +139,7 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-be4f7100.js",
+    "file": "_app/immutable/start-8e6d1a2e.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -153,7 +153,7 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-db9b9a4b.js",
+    "file": "_app/immutable/components/pages/_page.svelte-bcbc123b.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
